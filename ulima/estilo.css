@@ -86,18 +86,21 @@ button{
     margin-left: 50px;
     background-color: black;
     border-width: 2px;
+    border-color: white;
     padding: 5px;
     color: white;
     box-shadow: none;
+    outline: none;
 }
 button:hover{
     border: none;
 }
 
 button:active{
-    border: 0;
+    border: none;
 
 }
 button:focus{
+    border: none;
 }
 

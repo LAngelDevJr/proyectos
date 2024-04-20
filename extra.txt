@@ -1,0 +1,6 @@
+comando para mandar algun archivo nuevo que haz echo en el mismo repositorio.
+git init
+git status
+git add .
+git commit -m "comentario"
+git push

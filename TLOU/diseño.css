@@ -1,0 +1,48 @@
+body{
+    max-width: 10000px;
+    margin: auto;
+}
+.inicio{
+    font-size:30px;
+    width: 1420px;
+    margin: 0 auto;
+}
+.texto{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto2{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto3{
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    width: 50%;
+}
+.video{
+    
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen{
+    
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tabla{
+    font-size: 25px;
+    width: 700px;    
+}

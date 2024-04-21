@@ -1,0 +1,117 @@
+body{
+    max-width: 1000px;  /* establece la anchura maxima del cuerpo*/
+    margin: auto;   /*ayuda a que el cuerpo este centrado de forma automatica*/
+}
+
+header{
+    height: 100px;
+    display: flex;/*ordena el header en forma horizontal*/
+    padding-left: 30px;/*separa el espacio entre el header y el borde en 30 pixeles a la izquierda*/
+}
+
+.menu{
+    display: flex;/*ordena la lista en horizontal*/
+    padding-top: 20px;/*separa el espacio entre el menu o la lista y el borde en 30 pixeles de arriba*/
+    padding-left: 0px;
+}
+
+
+.menu li{
+    font-size: 15px;/*cambia el tamaño del texto en la lista a 12pixeles*/
+    margin-right: rem;/*separa en 1rem cada elemento de la lista, para que no esten tan juntas*/
+    list-style-type: none;/*elimina el estilo de la lista como sus numeros u otra cosa*/
+    text-transform: uppercase;/*cambia el texto de la lista a mayusculas*/
+    color:gray;
+    font-weight: bold;/*cambia el peso de la fuente a negrita*/
+    white-space: nowrap;/*evita que el texto se divida en varias lineas*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 18px;
+}
+
+.menu li:nth-of-type(5){  /*nos ubicamos en un elemento especifico de la lista para modificarlo*/
+    color: orangered;
+}
+
+header input{
+    margin-top: 30px;/*separa el espacio hacia arriba del borde en 40 pixeles*/
+    max-width: 100px;/*esablece que la anchura del input sea de 80 pixeles*/
+    max-height: 23px;/*establece que la altura del input sea de 20 pixeles*/
+    margin-left: 30px;
+}
+
+nav{
+    background-color: #ddd;/*hace que el color de fonde del nav sea de un tono gris*/
+    width: 1140px;
+}
+
+.menunav{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;/*evita que hayan multiples lineas si es que estan juntos*/
+    margin-bottom: 0px/*elimina la parte inferior del margen del menunav*/;
+    height: 43.992px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-weight: bold;/*cambia el peso de la fuente a negrita*/
+
+}
+
+.menunav li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    margin-right: 30px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+section{
+    background-image: url(foto.jpg);
+    height:550px;
+    width: 1140px;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+h6{
+    font-size: 12px;
+    margin: 0px;
+    padding-top: 70px;
+    margin-left: 50px;
+    color: #ddd;
+    padding-bottom: 0px;
+}
+
+button{
+    margin-left: 50px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    padding: 5px;
+    box-shadow: none;
+    outline: none;
+}
+button:hover{
+    border: none;
+}
+
+button:active{
+    border: none;
+}
+
+button:focus{
+    border: none;
+}
+/* aumenta el tamaño horizontal del texto o del body*/
+/* acomodael margin de forma automatica*/
